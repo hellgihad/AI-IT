@@ -284,6 +284,45 @@ export default function AIAutomationLanding() {
         </div>
       </section>
 
+      {/* About */}
+      <section id="about" className="bg-white border-y border-slate-200">
+        <div className="mx-auto max-w-5xl px-4 py-16 grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center">
+          <div>
+            <p className="text-sm uppercase tracking-[0.3em] text-[#08898E]">About me</p>
+            <h2 className="mt-3 text-3xl font-bold">Hi, I’m Augustyn Mat</h2>
+            <p className="mt-4 text-slate-600 text-lg leading-relaxed">
+              I’m an automation consultant who mixes no-code tools with AI to remove manual work from
+              growing companies. Over the past 7 years I’ve prototyped chatbots, lead qualification flows,
+              and back-office automations that let teams focus on customers instead of admin.
+            </p>
+            <p className="mt-4 text-slate-600">
+              My background spans customer support, operations, and product enablement. That blend helps me
+              translate “this takes too long” into automations that are transparent, documented, and easy to
+              hand over. When we work together you’ll always know what the agent does, how it’s monitored, and
+              how to iterate on it.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-500">
+              <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1">
+                <span className="text-lg">🎯</span> Outcome-focused experiments
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1">
+                <span className="text-lg">🤝</span> Transparent collaboration
+              </span>
+            </div>
+          </div>
+          <div className="relative">
+            <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl bg-[#6AACA4]/20 blur-2xl" aria-hidden="true"></div>
+            <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-xl">
+              <img
+                src="/assets/about-portrait.svg"
+                alt="Augustyn Mat smiling in front of a teal background"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact */}
       <section id="contact" className="bg-[#093339] text-white">
         <div className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
