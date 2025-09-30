@@ -330,7 +330,7 @@ export default function AIAutomationLanding() {
         <div className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-3xl font-bold">Book a free AI or process audit</h2>
-            <p className="mt-2 text-slate-300">Share the workflow, tool, or bottleneck that slows you down. I’ll review it and deliver a tailored automation roadmap with a fixed pilot quote.</p>
+            <p className="mt-2 text-slate-300">Book a meeting for a free audit. We will check your workflows and advise how you can use AI or automation to free up time</p>
             <ul className="mt-6 space-y-2 text-sm">
               <li>✉️ <a href="mailto:augustymat@gmail.com" className="underline">Email me</a></li>
               <li>🌐 <a href="https://aiit.today" target="_blank" rel="noopener noreferrer" className="underline">aiit.today</a></li>
@@ -375,3 +375,4 @@ export default function AIAutomationLanding() {
     </main>
   );
 }
+
