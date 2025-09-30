@@ -82,7 +82,7 @@ export default function AIAutomationLanding() {
             <img src="/assets/ai-it-logo.png" alt="AI IT logo" className="h-8 w-auto" />
             <span className="hidden sm:inline-block">AI IT — Business Processes Improvements</span>
           </div>
-          <a href="#contact" className="rounded-xl px-4 py-2 bg-[#093339] text-white hover:bg-slate-800 transition">Book a call</a>
+          <a href="#contact" className="rounded-xl px-4 py-2 bg-[#093339] text-white hover:bg-slate-800 transition">Book a free AI audit</a>
         </div>
       </header>
 
@@ -329,8 +329,8 @@ export default function AIAutomationLanding() {
       <section id="contact" className="bg-[#093339] text-white">
         <div className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-bold">Let’s automate something small</h2>
-            <p className="mt-2 text-slate-300">Send a link to a process or a tool that slows you down. I’ll suggest a concrete automation plan and a fixed pilot price.</p>
+            <h2 className="text-3xl font-bold">Book a free AI or process audit</h2>
+            <p className="mt-2 text-slate-300">Share the workflow, tool, or bottleneck that slows you down. I’ll review it and deliver a tailored automation roadmap with a fixed pilot quote.</p>
             <ul className="mt-6 space-y-2 text-sm">
               <li>✉️ <a href="mailto:augustymat@gmail.com" className="underline">Email me</a></li>
               <li>🌐 <a href="https://aiit.today" target="_blank" rel="noopener noreferrer" className="underline">aiit.today</a></li>
